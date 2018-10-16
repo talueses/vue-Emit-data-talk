@@ -1,0 +1,20 @@
+.talk {
+    .pinContainer {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+    .panel {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 3rem;
+    }
+}

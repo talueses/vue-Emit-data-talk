@@ -1,0 +1,10 @@
+
+<section class="talk">
+  <div class="pinContainer" ref="pin">
+    <section v-for="(p, index) in panels" class="panel" :class="`panel-${index}`" :style="{backgroundColor: p.bgColor}" >
+      {{ p.title }}
+    </section>
+    <HelloWorld />
+  </div>
+</section>
+
